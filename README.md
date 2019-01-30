@@ -1,11 +1,11 @@
 # Event-Prediction
-Tool and Language
+<h1>Tool and Language</h1>
 ​Jupyter Notebook and Python 3.6
-● Problem Statement
+<h1>● Problem Statement</h1>
 The dataset samplekkm is about events that happened around particular location in a
 duration of 3 months i.e January to March.I tried to create a classifier for predicting the
 type of event.The classifiers will be judged on their accuracy and precision.
-● Data Cleaning and Analysis
+<h1>● Data Cleaning and Analysis</h1>
 1) Imported the dataset using pandas as crm and created copy in crm2.
 2) Dropped the columns with 100% missing values.
 3) Splitted the column EVENTTYPE into cause and reason in order to identify the
@@ -24,7 +24,7 @@ the most during a week.
 9) Extracted hours from Occurencetime to check the time when maximum event
 happened.
 10) Sorted the target variable to check the occurence of type of event.
-● Event Prediction using Models
+<h1>● Event Prediction using Models</h1>
 1) Created dummy features for categorical data. This will result in large number of
 features.We choose top 150 features to avoid problems because of high
 dimensional data. Then we split the data into training set, development set and test
